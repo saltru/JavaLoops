@@ -15,7 +15,6 @@ public class JavaLoops {
             currentValue += currentPowerOf2 * b;
             currentPowerOf2 *= 2;
 
-            //Выводим его
             System.out.print(currentValue + " ");
         }
         System.out.println();
