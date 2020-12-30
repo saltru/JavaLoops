@@ -21,6 +21,8 @@ public class JavaLoops {
     }
 
     public static void main(String[] args) {
+        System.out.println(JavaLoops.class.getPackage().getName());
+
         Scanner scan = new Scanner(System.in);
 
         int q = scan.nextInt();
@@ -98,17 +100,5 @@ public class JavaLoops {
         if (q >= 4) {
             System.out.println("Программа не может работать с q>3");
         }
-
-        /*
-        if (q > 0) {
-            for (int i = 0; i < q; i++) {
-                int a = scan.nextInt();
-                int b = scan.nextInt();
-                int n = scan.nextInt();
-                //TBD: validation
-
-                printSeq(a, b, n);
-            }
-        }*/
     }
 }
